@@ -1,12 +1,10 @@
-import { Button } from "./components/ui/button";
+import Navbar from "./components/Navbar";
 
 function App() {
 	return (
 		<>
-			<div className="text-3xl">
-				<Button>Click me</Button>
-			</div>
-
+			<Navbar />
+			<div className="text-3xl">dfdfdfd</div>
 		</>
 	);
 }
